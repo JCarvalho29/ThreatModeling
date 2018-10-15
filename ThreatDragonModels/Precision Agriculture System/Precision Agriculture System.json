@@ -13,6 +13,12 @@
         "name": "JCarvalho29"
       }
     ],
-    "diagrams": []
+    "diagrams": [
+      {
+        "title": "Data Flow Diagram",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
   }
 }
