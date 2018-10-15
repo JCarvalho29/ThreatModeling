@@ -1,12 +1,16 @@
 {
   "summary": {
     "title": "Precision Agriculture System",
-    "owner": "JCarvalho29"
+    "owner": "JCarvalho29",
+    "description": ""
   },
   "detail": {
     "contributors": [
       {
         "name": "Ricardo1597"
+      },
+      {
+        "name": "JCarvalho29"
       }
     ],
     "diagrams": []
