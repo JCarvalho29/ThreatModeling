@@ -244,7 +244,7 @@
                   "severity": "Medium",
                   "title": "Tampering in a Network / Traffic redirection",
                   "type": "Tampering",
-                  "description": "Pode existir um equipamento a intercetar as comunicações wireless que são enviadas para os gateways, de forma a alterar a mesma e fornecer informações incorretas. Este equipamento poderá também apoderar-se da informação captada.",
+                  "description": "Pode existir um equipamento a intercetar as comunicações wireless entre os sensores e os gateways, de forma a alterar a mesma e fornecer informações incorretas. Este equipamento poderá também apoderar-se da informação captada.",
                   "mitigation": "Isto pode ser resolvido com o uso de uma conexão cifrada"
                 }
               ],
@@ -910,7 +910,7 @@
                 {
                   "status": "Mitigated",
                   "severity": "Medium",
-                  "description": "Pode existir um equipamento a intercetar as comunicações wireless que são enviadas para os gateways, de forma a alterar a mesma e fornecer informações incorretas. Este equipamento poderá também apoderar-se da informação captada.",
+                  "description": "Pode existir um equipamento a intercetar as comunicações wireless entre os sensores e os gateways, de forma a alterar a mesma e fornecer informações incorretas. Este equipamento poderá também apoderar-se da informação captada.",
                   "title": "Tampering in a Network / Traffic redirection",
                   "type": "Tampering",
                   "mitigation": "Isto pode ser resolvido com o uso de uma conexão cifrada"
