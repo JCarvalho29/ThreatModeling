@@ -33,16 +33,25 @@
               "angle": 0,
               "id": "2ede67d4-24db-4deb-b90a-269bc10b65a2",
               "z": 2,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Modifying Code",
+                  "type": "Tampering",
+                  "description": "O atacante poderá conseguir mudar o código de forma a conseguir retirar vantagens, tais como angariar informação."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Gateway"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -67,6 +76,13 @@
                   "title": "Spoofing a person",
                   "type": "Spoofing",
                   "description": "Alguém pode fazer-se passar por esta pessoa"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Tampering",
+                  "description": "Poderá alterar a informação recolhida pelos sensores de forma a obter qualquer tipo de vantagem.",
+                  "type": "Tampering"
                 }
               ],
               "attrs": {
@@ -102,6 +118,13 @@
                   "title": "Spoofing a pearson",
                   "type": "Spoofing",
                   "description": "Alguém pode fazer-se passar por esta pessoa."
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Tampering",
+                  "type": "Tampering",
+                  "description": "Poderá alterar a informação recolhida pelos sensores de forma a obter qualquer tipo de vantagem."
                 }
               ],
               "attrs": {
@@ -278,16 +301,25 @@
               "angle": 0,
               "id": "f50c07dc-5212-4404-86b9-19923bdd1911",
               "z": 16,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Modifying Code",
+                  "type": "Tampering",
+                  "description": "O atacante poderá conseguir mudar o código de forma a conseguir retirar vantagens, tais como angariar informação."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Back-End"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -304,16 +336,25 @@
               "angle": 0,
               "id": "2467da8a-f450-4880-a560-87c6798cfd6f",
               "z": 18,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Modifying code",
+                  "type": "Tampering",
+                  "description": "O atacante poderá conseguir mudar o código de forma a conseguir retirar vantagens, tais como angariar informação."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Front-End"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -866,16 +907,25 @@
               "angle": 0,
               "id": "1daee623-dda5-46b3-bc24-9d64f54b4fde",
               "z": 33,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Modifying Code",
+                  "type": "Tampering",
+                  "description": "O atacante poderá conseguir mudar o código de forma a conseguir retirar vantagens, tais como angariar informação."
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Gateway"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -1155,7 +1205,7 @@
               },
               "vertices": [
                 {
-                  "x": 700,
+                  "x": 692,
                   "y": 239
                 },
                 {
@@ -1171,8 +1221,8 @@
                   "y": 145
                 },
                 {
-                  "x": 97,
-                  "y": 199
+                  "x": 54,
+                  "y": 336
                 },
                 {
                   "x": 196,
