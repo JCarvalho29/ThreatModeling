@@ -1054,22 +1054,6 @@
               }
             },
             {
-              "type": "tm.Boundary",
-              "smooth": true,
-              "source": {
-                "x": 775,
-                "y": 292
-              },
-              "target": {
-                "x": 1107,
-                "y": 359
-              },
-              "vertices": [],
-              "id": "c7a78720-6ba0-4fc2-8008-b5d76ab175a9",
-              "z": 41,
-              "attrs": {}
-            },
-            {
               "type": "tm.Flow",
               "smooth": true,
               "source": {
@@ -1107,12 +1091,61 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 1097,
+                "y": 420
+              },
+              "target": {
+                "x": 1099,
+                "y": 419
+              },
+              "vertices": [
+                {
+                  "x": 700,
+                  "y": 239
+                },
+                {
+                  "x": 892,
+                  "y": 60
+                },
+                {
+                  "x": 632,
+                  "y": 28
+                },
+                {
+                  "x": 577,
+                  "y": 169
+                },
+                {
+                  "x": 97,
+                  "y": 199
+                },
+                {
+                  "x": 196,
+                  "y": 674
+                },
+                {
+                  "x": 480,
+                  "y": 605
+                },
+                {
+                  "x": 946,
+                  "y": 575
+                }
+              ],
+              "id": "756a22be-4466-4aab-9375-77bbf1011212",
+              "z": 43,
+              "attrs": {}
             }
           ]
         },
         "size": {
-          "height": 596,
-          "width": 975.2000122070312
+          "height": 597.8302001953125,
+          "width": 1882.6361083984375
         }
       }
     ]
