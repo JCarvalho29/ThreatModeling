@@ -196,16 +196,41 @@
               "angle": 0,
               "id": "b761acc8-aeb8-4bf5-961a-24e972066e74",
               "z": 12,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "tampering with a file",
+                  "type": "Tampering",
+                  "description": "Os ficheiros submetidos para a cloud poderão ser modificados por atacantes.",
+                  "mitigation": "Manter um backup offline dos ficheiros na cloud"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "DoS",
+                  "type": "Denial of service",
+                  "description": "Um atacante poderá deixar a cloud inoperacional."
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "Information Disclosure",
+                  "type": "Information disclosure",
+                  "description": "A informação presente na cloud pode ser captada por atacantes, sendo que estes não poderiam ter acesso à mesma",
+                  "mitigation": "Manter a informação cifrada"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Cloud"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -986,8 +1011,8 @@
                 "height": 100
               },
               "position": {
-                "x": 443,
-                "y": 13
+                "x": 408,
+                "y": 22
               },
               "angle": 0,
               "id": "991a2035-5f2c-49fa-ab57-5f604c9ca453",
@@ -1097,8 +1122,8 @@
                 "height": 80
               },
               "position": {
-                "x": 669,
-                "y": 32
+                "x": 664,
+                "y": 23
               },
               "angle": 0,
               "id": "0aeeb829-5587-416b-bdbf-87043bdf277e",
