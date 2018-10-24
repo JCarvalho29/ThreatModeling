@@ -1380,6 +1380,45 @@
               "id": "756a22be-4466-4aab-9375-77bbf1011212",
               "z": 43,
               "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "1daee623-dda5-46b3-bc24-9d64f54b4fde"
+              },
+              "target": {
+                "id": "991a2035-5f2c-49fa-ab57-5f604c9ca453"
+              },
+              "vertices": [
+                {
+                  "x": 579,
+                  "y": 155
+                }
+              ],
+              "id": "0d3d967e-5e94-44e6-849e-f24c1fb19a21",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 31",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 44,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
