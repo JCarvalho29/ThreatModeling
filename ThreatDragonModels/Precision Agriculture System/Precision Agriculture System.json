@@ -57,6 +57,14 @@
                   "title": "Information disclosure against data flow",
                   "type": "Information disclosure",
                   "mitigation": "Uma resolução para este problema é ter uma conexão cifrada, pois mesmo que os dados sejam redireccionados será quase impossível para o atacante obter informação através destes."
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "DoS against data flow",
+                  "type": "Denial of service",
+                  "description": "O atacante poderá bloquear as comunicações com os sensores com um \"flooding\" ao gateway de forma a este ter que descartar os pacotes que os sensores enviam.",
+                  "mitigation": "Uma resolução para o problema seria ter um filtro que conseguisse distinguir entre pacotes reais e pacotes de flooding. Tal pode ser conseguido com uma firewall (pouco eficaz) ou com equipamentos próprios, mas é necessário um grande investimento inicial e são caros de manter."
                 }
               ],
               "attrs": {
@@ -341,7 +349,7 @@
                 "height": 100
               },
               "position": {
-                "x": 509,
+                "x": 511,
                 "y": 392
               },
               "angle": 0,
@@ -379,6 +387,29 @@
                   "type": "Information disclosure",
                   "description": "O atacante poderá interceptar e redireccionar o tráfego de dados de forma a obter informação à qual não deveria ter acesso.",
                   "mitigation": "Uma resolução para este problema é ter uma conexão cifrada, pois mesmo que os dados sejam redireccionados será quase impossível para o atacante obter informação através destes."
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "DoS against data flow",
+                  "type": "Denial of service",
+                  "mitigation": "Uma resolução para o problema seria ter um filtro que conseguisse distinguir entre pacotes reais e pacotes de flooding. Tal pode ser conseguido com uma firewall (pouco eficaz) ou com equipamentos próprios, mas é necessário um grande investimento inicial e são caros de manter.",
+                  "description": "O atacante poderá bloquear as comunicações com os sensores com um \"flooding\" ao gateway de forma a este ter que descartar os pacotes que os sensores enviam."
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "EoP",
+                  "type": "Elevation of privilege",
+                  "description": "O atacante poderá encontrar uma sequência de inputs que ponha em causa o sistema de permissões, fazendo com que ele possa fazer coisas que não poderia noutra situação, como por exemplo a leitura e escrita de ficheiros secretos ou a execução de código arbitrário",
+                  "mitigation": "A única resolução para este problema seria a boa preparação do programa para lidar com qualquer tipo de inputs de forma a não ser possível fazer este tipo de ataques."
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "EoP through data tampering",
+                  "type": "Elevation of privilege",
+                  "description": "O atacante poderá fazer alterações a nível dos bits no disco de forma a ganhar privilégios que não poderia ter."
                 }
               ],
               "attrs": {
@@ -414,6 +445,14 @@
                   "title": "Modifying code",
                   "type": "Tampering",
                   "description": "O atacante poderá conseguir mudar o código de forma a conseguir retirar vantagens, tais como angariar informação."
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "EoP against authentication",
+                  "type": "Elevation of privilege",
+                  "description": "O atacante poderá encontrar um erro que faça com que consiga entrar numa conta que tenha permissões elevadas.",
+                  "mitigation": "Uma medida para tal problema seria incluir no processo de autenticação o sistema de \"two-factor-authentication\"."
                 }
               ],
               "attrs": {
@@ -947,8 +986,8 @@
                 "height": 100
               },
               "position": {
-                "x": 408,
-                "y": 1
+                "x": 443,
+                "y": 13
               },
               "angle": 0,
               "id": "991a2035-5f2c-49fa-ab57-5f604c9ca453",
@@ -1029,6 +1068,14 @@
                   "type": "Information disclosure",
                   "description": "O atacante poderá interceptar e redireccionar o tráfego de dados de forma a obter informação à qual não deveria ter acesso.",
                   "mitigation": "Uma resolução para este problema é ter uma conexão cifrada, pois mesmo que os dados sejam redireccionados será quase impossível para o atacante obter informação através destes."
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "DoS against data flow",
+                  "type": "Denial of service",
+                  "description": "O atacante poderá bloquear as comunicações com os sensores com um \"flooding\" ao gateway de forma a este ter que descartar os pacotes que os sensores enviam.",
+                  "mitigation": "Uma resolução para o problema seria ter um filtro que conseguisse distinguir entre pacotes reais e pacotes de flooding. Tal pode ser conseguido com uma firewall (pouco eficaz) ou com equipamentos próprios, mas é necessário um grande investimento inicial e são caros de manter."
                 }
               ],
               "attrs": {
@@ -1119,45 +1166,6 @@
                 }
               ],
               "z": 35,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "1daee623-dda5-46b3-bc24-9d64f54b4fde"
-              },
-              "target": {
-                "id": "991a2035-5f2c-49fa-ab57-5f604c9ca453"
-              },
-              "vertices": [
-                {
-                  "x": 546,
-                  "y": 128
-                }
-              ],
-              "id": "cbc31eeb-ec2f-4a61-8688-099b1da8c045",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "flow 26",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 36,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
