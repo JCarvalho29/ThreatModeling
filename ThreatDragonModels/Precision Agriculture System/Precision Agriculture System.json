@@ -49,6 +49,14 @@
                   "title": "Tampering in a Network / Traffic redirection",
                   "type": "Tampering",
                   "mitigation": "Pode ser resolvido usando uma conexão cifrada"
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "description": "O atacante poderá interceptar e redireccionar o tráfego de dados de forma a obter informação à qual não deveria ter acesso.",
+                  "title": "Information disclosure against data flow",
+                  "type": "Information disclosure",
+                  "mitigation": "Uma resolução para este problema é ter uma conexão cifrada, pois mesmo que os dados sejam redireccionados será quase impossível para o atacante obter informação através destes."
                 }
               ],
               "attrs": {
@@ -262,6 +270,14 @@
                   "type": "Tampering",
                   "description": "Pode existir um equipamento a interceptar as comunicações wireless entre os sensores e os gateways, de forma a alterar a mesma e fornecer informações incorrectas. Este equipamento poderá também apoderar-se da informação captada.",
                   "mitigation": "Isto pode ser resolvido com o uso de uma conexão cifrada"
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "Information disclosure against data flow",
+                  "type": "Information disclosure",
+                  "description": "O atacante poderá interceptar e redireccionar o tráfego de dados de forma a obter informação à qual não deveria ter acesso.",
+                  "mitigation": "Uma resolução para este problema é ter uma conexão cifrada, pois mesmo que os dados sejam redireccionados será quase impossível para o atacante obter informação através destes."
                 }
               ],
               "attrs": {
@@ -355,6 +371,14 @@
                   "type": "Repudiation",
                   "description": "O atacante poderá tentar modificar os conteúdos presentes nos logs de forma a esconder uma acção ou por as culpas noutro utilizador.",
                   "mitigation": "Este problema pode ser resolvido usando um sistema de permissões que não seixe ninguém alterar os conteúdos dos logs."
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "Information disclosure against data flow",
+                  "type": "Information disclosure",
+                  "description": "O atacante poderá interceptar e redireccionar o tráfego de dados de forma a obter informação à qual não deveria ter acesso.",
+                  "mitigation": "Uma resolução para este problema é ter uma conexão cifrada, pois mesmo que os dados sejam redireccionados será quase impossível para o atacante obter informação através destes."
                 }
               ],
               "attrs": {
@@ -738,6 +762,14 @@
                   "title": "Tampering a file",
                   "type": "Tampering",
                   "mitigation": "Ums sistema de permissões deverá resolver o problema"
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "description": "O atacante poderá tentar tirar proveito de falta de uma tabela de permissões ou uma mal configurada para obter informações que não poderia ter acesso de qualquer outra maneira. Isto também poderá acontecer se existir uma base de dados onde as configurações não estejam bem feitas.",
+                  "title": "Information disclosure against storage",
+                  "type": "Information disclosure",
+                  "mitigation": "A resolução deste problema passa por ter tabelas de permissões e permissões de base de dados bem definidas e restritas."
                 }
               ],
               "attrs": {
@@ -938,6 +970,14 @@
                   "title": "Tampering in a Network / Traffic redirection",
                   "type": "Tampering",
                   "mitigation": "Isto pode ser resolvido com o uso de uma conexão cifrada"
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "mitigation": "Uma resolução para este problema é ter uma conexão cifrada, pois mesmo que os dados sejam redireccionados será quase impossível para o atacante obter informação através destes.",
+                  "title": "Information disclosure against data flow",
+                  "type": "Information disclosure",
+                  "description": "O atacante poderá interceptar e redireccionar o tráfego de dados de forma a obter informação à qual não deveria ter acesso."
                 }
               ],
               "attrs": {
@@ -981,6 +1021,14 @@
                   "title": "Tampering in a Network / Traffic redirection",
                   "type": "Tampering",
                   "mitigation": "Pode ser resolvido usando uma conexão cifrada"
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "Information disclosure against data flow",
+                  "type": "Information disclosure",
+                  "description": "O atacante poderá interceptar e redireccionar o tráfego de dados de forma a obter informação à qual não deveria ter acesso.",
+                  "mitigation": "Uma resolução para este problema é ter uma conexão cifrada, pois mesmo que os dados sejam redireccionados será quase impossível para o atacante obter informação através destes."
                 }
               ],
               "attrs": {
@@ -1017,6 +1065,14 @@
                   "type": "Tampering",
                   "description": "Será possível modificar informações presentes nesta memória",
                   "mitigation": "Um sistema de permições deverá resolver o problema"
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "Information disclosure against storage",
+                  "type": "Information disclosure",
+                  "description": "O atacante poderá tentar tirar proveito de falta de uma tabela de permissões ou uma mal configurada para obter informações que não poderia ter acesso de qualquer outra maneira. Isto também poderá acontecer se existir uma base de dados onde as configurações não estejam bem feitas.",
+                  "mitigation": "A resolução deste problema passa por ter tabelas de permissões e permissões de base de dados bem definidas e restritas."
                 }
               ],
               "attrs": {
