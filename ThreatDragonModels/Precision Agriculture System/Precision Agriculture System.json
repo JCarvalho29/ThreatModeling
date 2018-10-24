@@ -93,6 +93,14 @@
                   "description": "Poderá alterar a informação recolhida pelos sensores de forma a obter qualquer tipo de vantagem.",
                   "type": "Tampering",
                   "mitigation": "Um sitema que apenas dê permissões de leitura de ficheiros aos utilizadores deverá resolver este problema"
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "mitigation": "Uma boa maneira de prevenir este acontecimento é ter uma registo de logs onde são gravadas todos os acontecimentos e quem os fez. para isto também é necessário um sistema de autenticação para saber quem é que está a mexer no sistema.",
+                  "title": "Repudiating an action",
+                  "type": "Repudiation",
+                  "description": "Pode fazer uma qualquer acção e posteriormente negar que a fez"
                 }
               ],
               "attrs": {
@@ -137,6 +145,14 @@
                   "type": "Tampering",
                   "description": "Poderá alterar a informação recolhida pelos sensores de forma a obter qualquer tipo de vantagem.",
                   "mitigation": "Um sitema que apenas dê permissões de leitura de ficheiros aos utilizadores deverá resolver este problema"
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "Repudiating an action",
+                  "type": "Repudiation",
+                  "description": "Pode fazer uma qualquer acção e posteriormente negar que a fez",
+                  "mitigation": "Uma boa maneira de prevenir este acontecimento é ter uma registo de logs onde são gravadas todos os acontecimentos e quem os fez. para isto também é necessário um sistema de autenticação para saber quem é que está a mexer no sistema."
                 }
               ],
               "attrs": {
@@ -244,7 +260,7 @@
                   "severity": "Medium",
                   "title": "Tampering in a Network / Traffic redirection",
                   "type": "Tampering",
-                  "description": "Pode existir um equipamento a intercetar as comunicações wireless entre os sensores e os gateways, de forma a alterar a mesma e fornecer informações incorretas. Este equipamento poderá também apoderar-se da informação captada.",
+                  "description": "Pode existir um equipamento a interceptar as comunicações wireless entre os sensores e os gateways, de forma a alterar a mesma e fornecer informações incorrectas. Este equipamento poderá também apoderar-se da informação captada.",
                   "mitigation": "Isto pode ser resolvido com o uso de uma conexão cifrada"
                 }
               ],
@@ -331,6 +347,14 @@
                   "title": "Tampering in a Network / Traffic redirection",
                   "mitigation": "Este problema pode ser resolvido com uma conexão cifrada",
                   "type": "Tampering"
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "Attacking the log",
+                  "type": "Repudiation",
+                  "description": "O atacante poderá tentar modificar os conteúdos presentes nos logs de forma a esconder uma acção ou por as culpas noutro utilizador.",
+                  "mitigation": "Este problema pode ser resolvido usando um sistema de permissões que não seixe ninguém alterar os conteúdos dos logs."
                 }
               ],
               "attrs": {
@@ -910,7 +934,7 @@
                 {
                   "status": "Mitigated",
                   "severity": "Medium",
-                  "description": "Pode existir um equipamento a intercetar as comunicações wireless entre os sensores e os gateways, de forma a alterar a mesma e fornecer informações incorretas. Este equipamento poderá também apoderar-se da informação captada.",
+                  "description": "Pode existir um equipamento a interceptar as comunicações wireless entre os sensores e os gateways, de forma a alterar a mesma e fornecer informações incorrectas. Este equipamento poderá também apoderar-se da informação captada.",
                   "title": "Tampering in a Network / Traffic redirection",
                   "type": "Tampering",
                   "mitigation": "Isto pode ser resolvido com o uso de uma conexão cifrada"
@@ -935,7 +959,7 @@
                 "height": 100
               },
               "position": {
-                "x": 533,
+                "x": 534,
                 "y": 197
               },
               "angle": 0,
